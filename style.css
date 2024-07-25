@@ -5,17 +5,41 @@
 }
 
 section.calc {
-    width: 20%;
+    width: 22%;
+    position: absolute;
+    margin: 13% 41%;
+    border: 2px solid black;
+    padding: 20px;
+    background-image: linear-gradient(#03346E, #6EACDA);
+}
+
+input#logic {
+    width: 96%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+}
+
+.btn_all {
+    position: relative;
+    width: 100%;
 }
 
 button {
-    width: 15%;
-    margin: 3px;
+    font-weight: 900;
+    width: 22.7%;
+    margin: 3px 0 3px 0;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
 }
 
-#plus {
+button#plus {
     position: absolute;
-    width: 2.8%;
-    height: 62px;
-    left: 11.32%;
+    height: 86px;
+    margin-left: 4px;
 }
