@@ -89,7 +89,8 @@ const fun9=()=>{
 }
 
 
-const funeal=()=>{
+const funequal=()=>{
     let arr=Array.from(a.value);
-    console.log(arr);
+    clearscreen();
+    a.value=eval(arr.join(""));
 }
